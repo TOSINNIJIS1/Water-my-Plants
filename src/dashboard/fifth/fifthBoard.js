@@ -4,11 +4,10 @@ import Feng from '../../feng.png';
 import Stat from '../../stat.png';
 import Dashboard from '../../DB.png';
 import Schedule from '../../SC.png';
-import Wireframe from '../../WF.png';
+
+
 
 export default function () {
-
-
     return (
         <div class='fifthContainer'>
             <h4> Creating empathy </h4>
