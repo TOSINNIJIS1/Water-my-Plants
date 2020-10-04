@@ -1,0 +1,93 @@
+$darkgrey: #595959;
+
+
+.contained {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    .take {
+        width: 43%;
+
+        h4 {
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+
+        p {
+            color: $darkgrey;
+            padding-bottom: 5%;
+        }
+
+        img {
+            display: flex;
+            width: 100%;
+            margin-bottom: 5%;
+        }
+
+        .keya, .keyb, .keyc {
+            display: flex;
+            align-items: center;
+            width: 90%;
+
+            .c {
+                font-weight: bold;
+                margin-bottom: 10%;
+            }
+
+            span {
+                display: flex;
+                color: $darkgrey;
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 5%;
+            }
+
+            p {
+                margin-left: 10%;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    .note {
+        width: 43%;
+        background: #FFF1B8;
+        .main {
+            margin-top: 5%;
+            margin-left: 10%;
+            margin: 0 auto;
+            width: 79%;
+
+        }
+
+        .notea {
+            margin-top: 20%;
+
+        }
+
+        .notec {
+            margin-bottom: 20%;
+        }
+
+        .notea, .noteb, .notec {
+            margin-left: 20%;
+            display: flex;
+            align-items: center;
+            width: 80%;
+
+            span {
+                font-size: 80px;
+                margin-bottom: 10%;
+            }
+
+            p {
+                margin-left: 7%;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+}

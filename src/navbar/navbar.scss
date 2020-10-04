@@ -1,0 +1,40 @@
+// define color
+
+$black: #000;
+
+// define font
+
+$logoFont: 'Futura-Bold';
+$generalFont: 'Source Sans Pro';
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.logo {
+    // width: 20%;
+    // line-height: 59.2px;
+    // font-size: 50.52px;
+    font-family: $logoFont;
+}
+
+.nav {
+    padding-right: 0%;
+
+}
+
+.nav nav ul {
+    display: flex;
+    list-style-type: none;
+    font-family: $generalFont;
+    font-weight: 700;
+
+}
+
+li {
+    margin: 20px;
+}
