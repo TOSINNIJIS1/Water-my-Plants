@@ -1,0 +1,60 @@
+$dark: #262626;
+$grey: #8C8C8C;
+$darkgrey: #595959;
+
+.fifthContainer {
+    width: 43%;
+    margin: 0 auto;
+    padding-top: 2%;
+    
+
+    h4 {
+        color: $dark;
+        padding-bottom: 3%;
+    }
+
+    p {
+        color: $darkgrey;
+        padding-bottom: 5%;
+
+    }
+
+    .emp {
+        width: 89%;
+    }
+
+    .feng {
+        h4 {
+
+        }
+        .img {
+            display: flex;
+            align-items: center;
+            width: 93%;
+
+            p {
+                color: $dark;
+            }
+        }
+
+        img {
+            margin-bottom: 5%;
+            width: 30%;
+            border-radius: 100%;
+
+        }
+
+        
+    }
+
+    .journey {
+        border: solid;
+        .bold {
+            font-weight: bold;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
