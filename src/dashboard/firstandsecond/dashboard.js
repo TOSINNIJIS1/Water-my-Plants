@@ -3,7 +3,8 @@ import './dashboard.scss';
 import SecondDashBoard from './secondBoard';
 import ThirdDashBoard from '../third/thirdBoard';
 import FourthDashBoard from '../fourth/fourthBoard';
-import FifthDashBoard from '../fifth/fifthBoard'
+import FifthDashBoard from '../fifth/fifthBoard';
+import UserFlow from '../userFlow/userflow';
 
 export default function Dashboard () {
 
@@ -67,6 +68,8 @@ export default function Dashboard () {
                     <ThirdDashBoard />
                     <FourthDashBoard />
                     <FifthDashBoard />
+                    <UserFlow />
+
                 </div>
         </div>
     )
