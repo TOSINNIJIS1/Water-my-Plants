@@ -35,29 +35,7 @@ export default function () {
                     <img src={Schedule} alt='schedule' />
                 </div>
             </div>
-{/* 
-            <div>
-                <h4> How might we differentiate between watered and unwatered plants? </h4>
-                <p> I had a couples ideas on how to denote a plant that needs water from a plant that’s not ready to be watered yet. I looked at how apps apply different states to selected and deselected items. I also considered symbols as a way to differentiate. In the end symbols are fitting in this scenario where a droplet of water could signify “dry” and plants without the droplet could mean watered already or not ready to be watered yet. </p>
-                <div>
-                    <img src='' alt='Dashboard' />
-                    <img src='' alt='schedule' />
-                    <img src='' alt='schedule' />
-                    <img src='' alt='schedule' />
-                    <img src='' alt='schedule' />
-                    <img src='' alt='schedule' />
-                    <img src='' alt='schedule' />
-                </div>
-            </div>
 
-            <div>
-                <h4> Version One </h4>
-                <div>
-                    <img src='' alt='one' />
-                    <img src='' alt='two' />
-                    <img src='' alt='three' />
-                </div>
-            </div> */}
         </div>
     )
 }
