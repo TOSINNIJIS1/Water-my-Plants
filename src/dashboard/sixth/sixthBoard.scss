@@ -1,0 +1,105 @@
+
+
+.sixthContainer {
+    margin: 0 auto;
+    width: 43%;
+
+    h4 {
+        margin-bottom: 5%;
+    }
+
+    p {
+        margin-bottom: 5%;
+    }
+
+    .images {
+        width: 100%;
+
+        .one {
+            border: solid;
+        }
+
+        .sett {
+            // display: flex;
+            // flex-direction: column;
+            width: 50%;
+            border: solid;
+
+            .plants, .add {
+                border: solid red;
+                // padding-bottom: 20%;
+            }
+
+            img {
+                margin: 0;
+            }
+        }
+
+        // .dash {
+        //     vertical-align: 30%;
+        // }
+
+        // .plants {
+        //     vertical-align: top;
+        // }
+
+        // .settings {
+        //     margin-bottom: 20%;
+            
+        //     // vertical-align: bottom;
+        // }
+
+        img {
+            // display: inline;
+            width: 32%;
+            // height: 20%;
+        }
+
+        // .suc {
+        //     // margin-bottom: 9%;
+        //     margin-left: 1%;
+        //     vertical-align: 237.5%;
+
+        // }
+    }
+
+    .diff {
+
+        img {
+            padding-bottom: 3%;
+        }
+
+        p {
+            width: 90%;
+            // padding-bottom: 2%;
+        }
+
+        .solution {
+            .drop {
+                img {
+                    width: 47%;
+                }
+
+                .dropA {
+                    margin-right: 5%;
+                }
+            }
+        }
+    }
+
+}
+
+.images {
+    width: 40%;
+    // display: flex;
+    flex-direction: row;
+    // margin: 0 auto;
+
+
+    img {
+        margin: 0 auto;
+        // display: flex;
+        width: 43%;
+        // vertical-align: top;
+    }
+}
