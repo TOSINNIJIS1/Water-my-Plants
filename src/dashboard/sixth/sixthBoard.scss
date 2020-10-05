@@ -13,55 +13,53 @@
     }
 
     .images {
+        // position: absolute;
         width: 100%;
-
-        .one {
-            border: solid;
-        }
-
-        .sett {
-            // display: flex;
-            // flex-direction: column;
-            width: 50%;
-            border: solid;
-
-            .plants, .add {
-                border: solid red;
-                // padding-bottom: 20%;
-            }
-
-            img {
-                margin: 0;
-            }
-        }
-
-        // .dash {
-        //     vertical-align: 30%;
-        // }
-
-        // .plants {
-        //     vertical-align: top;
-        // }
-
-        // .settings {
-        //     margin-bottom: 20%;
-            
-        //     // vertical-align: bottom;
-        // }
+        padding-bottom: 15%;
 
         img {
-            // display: inline;
-            width: 32%;
-            // height: 20%;
+            width: 30%;
         }
 
-        // .suc {
-        //     // margin-bottom: 9%;
-        //     margin-left: 1%;
-        //     vertical-align: 237.5%;
+        .group {
+            margin-right: 4%;
+        }
 
-        // }
+        .dash {
+            vertical-align: top;
+            margin-right: 4%;
+        }
+
+        .suc {
+            vertical-align: top;
+        }
+
+        .plants {
+            margin-bottom: 41%;
+        }
+
+        .settings {
+            position: absolute;
+            left: 431px;
+            top: 1017%;
+            width: 13%;
+            // margin-top: 20%;
+        }
+
+        .snake {
+            padding-left: 4%;
+        }
+
+        .add {
+            position: absolute;
+            // padding-left: 4%;
+            width: 13%;
+            left: 57.7%;
+            top: 972%;
+            // vertical-align: top;
+        }
     }
+
 
     .diff {
 

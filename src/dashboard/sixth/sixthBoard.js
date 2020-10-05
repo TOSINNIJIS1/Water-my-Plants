@@ -22,26 +22,14 @@ export default function SixthBoard () {
                 <p> I had a couples ideas on how to denote a plant that needs water from a plant that’s not ready to be watered yet. I looked at how apps apply different states to selected and deselected items. I also considered symbols as a way to differentiate. In the end symbols are fitting in this scenario where a droplet of water could signify “dry” and plants without the droplet could mean watered already or not ready to be watered yet. </p>
                 
                 <div class='images'>
-                    <div>
-                        <img src={Group} alt='group' />
-                        <img class='dash' src={Dashboard} alt='dashboard' />
-                        <img src={Succulents} alt='succulents' class='suc'/>
-
-                        <div class='one'>
-                            <img class='plants' src={Plants} alt='plants' />
-                            <img src={Snake} alt='snake' />
-                            <img class='add' src={Add} alt='add' />
-
-                        </div>
-                    </div>
-                        
-                    <div class='sett'>
-                        
-                        
-                        <img class='settings' src={Settings} alt='setting' />
-                    </div>
-                        
-
+                    <img class='group' src={Group} alt='group'  />
+                    <img class='dash' src={Dashboard} alt='dashboard' />
+                    <img class='suc' src={Succulents} alt='succulents' />
+                    <img class='plants' src={Plants} alt='plants' />
+                    <img class='snake' src={Snake} alt='snake' />
+                    <img class='add' src={Add} alt='add' />
+                    <img class='settings' src={Settings} alt='setting' />
+                    
                 </div>
             </div>
 
