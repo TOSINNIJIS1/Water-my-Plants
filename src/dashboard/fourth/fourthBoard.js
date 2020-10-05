@@ -33,17 +33,17 @@ export default function FourthBoard() {
             <div class='note'>
                 <div class='main'>
                     <div class='notea'>
-                        <span> . </span>
+                        <ul class='a'> <li></li> </ul>
                         <p> It’s hard to keep up with which plants have been watered, which haven’t and their individual watering needs. </p>
                     </div>
 
                     <div class='noteb'>
-                        <span> . </span>
+                        <ul class='b'> <li></li> </ul>
                         <p> It’s hard to identify plants when you have a lot of them at home. </p>
                     </div>
 
                     <div class='notec'>
-                        <span> . </span>
+                        <ul class='c'> <li></li> </ul>
                         <p> It’s challenging to remember the varying needs of each plant because house plants tend to have particular care instructions. </p>
                     </div>
                 </div>

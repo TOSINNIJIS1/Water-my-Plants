@@ -1,8 +1,6 @@
 
 
 .sixthContainer {
-    // position: absolute;
-    // height: 0%;
     margin: 0 auto;
     width: 43%;
 
@@ -12,6 +10,8 @@
 
     p {
         margin-bottom: 5%;
+        color: #595959;
+
     }
 
     .images {
@@ -21,9 +21,7 @@
         img {
             width: 100%;
         }
-
     }
-
 
     .diff {
 
@@ -33,7 +31,6 @@
 
         p {
             width: 90%;
-            // padding-bottom: 2%;
         }
 
         .solution {

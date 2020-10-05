@@ -53,41 +53,50 @@ $darkgrey: #595959;
     }
     .note {
         width: 43%;
-        background: #FFF1B8;
+        background: #F0F5FF;
         .main {
-            margin-top: 5%;
-            margin-left: 10%;
-            margin: 0 auto;
             width: 79%;
+            padding-left: 5%;
 
-        }
+            .notea {
+                margin-top: 10%;
 
-        .notea {
-            margin-top: 20%;
-
-        }
-
-        .notec {
-            margin-bottom: 20%;
-        }
-
-        .notea, .noteb, .notec {
-            margin-left: 20%;
-            display: flex;
-            align-items: center;
-            width: 80%;
-
-            span {
-                font-size: 80px;
+            }
+            .notec {
                 margin-bottom: 10%;
             }
-
-            p {
-                margin-left: 7%;
+    
+            .notea, .noteb, .notec {
+                margin-left: 20%;
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
+                align-items: center;
+    
+                .a {
+                    padding-bottom: 15%;
+                }
+    
+                .b {
+                    padding-bottom: 5%;
+                }
+    
+                .c {
+                    padding-bottom: 23%;
+    
+                }
+    
+                li {
+                    // align-items: start;
+                    font-size: 25px;
+                    // border: solid;
+                }
             }
+
         }
+
+
+
+        
     }
 
 }
