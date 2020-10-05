@@ -1,6 +1,8 @@
 
 
 .sixthContainer {
+    // position: absolute;
+    // height: 0%;
     margin: 0 auto;
     width: 43%;
 
@@ -13,51 +15,13 @@
     }
 
     .images {
-        // position: absolute;
         width: 100%;
-        padding-bottom: 15%;
+        padding-bottom: 10%;
 
         img {
-            width: 30%;
+            width: 100%;
         }
 
-        .group {
-            margin-right: 4%;
-        }
-
-        .dash {
-            vertical-align: top;
-            margin-right: 4%;
-        }
-
-        .suc {
-            vertical-align: top;
-        }
-
-        .plants {
-            margin-bottom: 41%;
-        }
-
-        .settings {
-            position: absolute;
-            left: 431px;
-            top: 1017%;
-            width: 13%;
-            // margin-top: 20%;
-        }
-
-        .snake {
-            padding-left: 4%;
-        }
-
-        .add {
-            position: absolute;
-            // padding-left: 4%;
-            width: 13%;
-            left: 57.7%;
-            top: 972%;
-            // vertical-align: top;
-        }
     }
 
 
