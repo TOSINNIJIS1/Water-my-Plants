@@ -1,7 +1,7 @@
 import React from 'react';
 import './fourthBoard.scss';
 import Key from '../../key.jpg'
-import ArrowDown from '../../assets/arrowdown.jpg'
+// import ArrowDown from '../../assets/arrowdown.jpg'
 
 
 export default function FourthBoard() {
@@ -29,10 +29,10 @@ export default function FourthBoard() {
                     <span class='c'> c. </span>
                     <p class='c'> Planters however, who do not have a large backyard or live indoor in small spaces have drastically different struggles- </p>
                 </div>
-
+{/* 
                 <div>
-                {/* <img src={ArrowDown} alt='arrowdown' /> */}
-                </div>
+                <img src={ArrowDown} alt='arrowdown' />
+                </div> */}
             </div>
 
             <div class='note'>
