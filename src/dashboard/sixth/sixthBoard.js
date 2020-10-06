@@ -1,6 +1,6 @@
 import React from 'react';
 import './sixthBoard.scss';
-import Image from '../../assets/image.jpg'
+import Image from '../../assets/image.png'
 import Track from '../../assets/track.png';
 import Explore from '../../assets/explore.png';
 import DropletA from '../../assets/dropletA.png';
