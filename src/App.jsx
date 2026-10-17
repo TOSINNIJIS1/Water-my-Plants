@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './theme.css';
 import NavBar from './navbar/navbar';
 import Dashboard from './dashboard/firstandsecond/dashboard'
 
