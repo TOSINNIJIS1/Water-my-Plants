@@ -1,90 +1,73 @@
-# Water My Plants
+# Water my Plants
 
-A calm, responsive plant-care dashboard for keeping houseplant watering on track.
+Water my Plants is a UX case-study portfolio page by Mahiya H. It documents the design process for helping indoor plant owners remember watering schedules, identify plant needs, and track watering history.
+
+The project presents the full design story—from user research and synthesis through persona development, information architecture, wireframes, visual design, and the final prototype.
+
+## Live site
+
+[View the deployed case study](https://mahiya-water-my-plants.netlify.app/)
+
+## Tech stack
+
+- React
+- Vite
+- Sass
+- Responsive HTML and CSS
 
 ## Run locally
 
+Install dependencies:
+
 ```bash
 npm install
-npm run dev
 ```
 
-Build for production with `npm run build`.
+Start the development server:
 
-## Included
+```bash
+npm start
+```
 
-- Responsive dashboard with sage navigation rail and plant-care overview
-- Search across the plant collection
-- Working “Mark as watered” state with confirmation toast
-- Add-plant modal with watering frequency selection
-- Generated plant imagery and a care-tip card
+The site will be available at the local URL shown by Vite, usually [http://localhost:5173](http://localhost:5173).
 
-## Available Scripts
+## Available scripts
 
-In the project directory, you can run:
+| Command | Description |
+| --- | --- |
+| `npm start` | Start the local Vite development server. |
+| `npm run dev` | Start the local Vite development server. |
+| `npm run build` | Create an optimized production build in `dist/`. |
+| `npm run preview` | Preview the production build locally. |
 
-### `yarn start`
+## Project structure
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```text
+src/
+├── App.jsx                         Application shell and footer
+├── navbar/                         Portfolio navigation
+└── dashboard/
+    ├── firstandsecond/              Project introduction and problem/solution
+    ├── third/                       Research questions
+    ├── fourth/                      Research takeaways
+    ├── fifth/                       Persona and information architecture
+    ├── userFlow/                    Wireframe section
+    ├── sixth/                       Interaction exploration and final solution
+    └── 7image/                      Supporting prototype imagery
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Verification
 
-### `yarn test`
+The production build can be checked with:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm run build
+```
 
-### `yarn build`
+## Deployment
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project is configured for a standard Vite deployment. Netlify can deploy it using:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Build command: `npm run build`
+- Publish directory: `dist`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4802ff70-8512-4263-a6b8-85c12ddd7ba8/deploy-status)](https://app.netlify.com/sites/mahiya-water-my-plants/deploys)
