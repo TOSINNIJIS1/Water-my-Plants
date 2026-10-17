@@ -1,4 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Water My Plants
+
+A calm, responsive plant-care dashboard for keeping houseplant watering on track.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production with `npm run build`.
+
+## Included
+
+- Responsive dashboard with sage navigation rail and plant-care overview
+- Search across the plant collection
+- Working “Mark as watered” state with confirmation toast
+- Add-plant modal with watering frequency selection
+- Generated plant imagery and a care-tip card
 
 ## Available Scripts
 
