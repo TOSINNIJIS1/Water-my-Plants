@@ -7,15 +7,15 @@ export default function SDash() {
 
 
     return (
-        <div class='cont'>
-            <div class='prob'>
+        <div className='cont' id='projects'>
+            <div className='prob'>
                 <h4>Problem</h4>
                 <p> Building a schedule around ensuring that all your plants are watered is actually pretty difficult. Water my Plants helps to solve those problems by providing an easy to use interface for creating a plant watering schedule that will remind users to water their plants on a regular basis.  </p>
             </div>
 
-            <div class='sol'>
+            <div className='sol'>
                 <h4> Solution Overview </h4>
-                <div class='img'>
+                <div className='img'>
                     <img src={solution} alt='solution' />
                     <img src={solutions} alt='solutions' />
                 </div>

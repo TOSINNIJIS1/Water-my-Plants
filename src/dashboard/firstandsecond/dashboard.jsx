@@ -11,8 +11,8 @@ export default function Dashboard () {
 
     return (
         <div>
-            <div class='dashContainer'>
-                <div class='firstDash'>
+            <div id='story' className='dashContainer'>
+                <div className='firstDash'>
                     <h1> Water my Plants </h1>
                     <p> Designed to organize, track, and record plant watering with an emphasis on the wellbeing of indoor plants. </p>
 
@@ -24,38 +24,38 @@ export default function Dashboard () {
                 </div>
 
 
-                <div class='secondDash'>
+                <div className='secondDash' id='process'>
                     <h4>My Process at a glance</h4>
 
-                    <div class='wks'>
-                        <div class='one'>
+                    <div className='wks'>
+                        <div className='one'>
                             <h5> WEEK 1 </h5>
                             <p> User Research </p>
                         </div>
 
-                        <div class='two'>
+                        <div className='two'>
                             <h5> WEEK 2 </h5>
                             <p> Research Synthesis </p>
                         </div>
                         
-                        <div class='three'>
+                        <div className='three'>
                             <h5> WEEK 3 </h5>
                             <p> Ideation </p>
                         </div>
                     </div>
 
-                    <div class='wks'>
-                        <div class='four'>
+                    <div className='wks'>
+                        <div className='four'>
                             <h5> WEEK 4 </h5>
                             <p> Lo-fi Wireframes </p>
                         </div>
                     
-                        <div class='five'>
+                        <div className='five'>
                             <h5> WEEK 5 </h5>
                             <p> Visual design </p>
                         </div>
 
-                        <div class='six'>
+                        <div className='six'>
                             <h5> WEEK 6 </h5>
                             <p> Test & Iterate </p>
                         </div>

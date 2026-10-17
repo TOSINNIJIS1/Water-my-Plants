@@ -10,21 +10,21 @@ import DropletC from '../../assets/dropletC.png';
 export default function SixthBoard () {
 
     return (
-        <div class='sixthContainer'>
-            <div class='idea'>
+        <div className='sixthContainer'>
+            <div className='idea'>
                 <h4> How might we differentiate between watered and unwatered plants? </h4>
-                <p class='grey'> I had a couples ideas on how to denote a plant that needs water from a plant that’s not ready to be watered yet. I looked at how apps apply different states to selected and deselected items. I also considered symbols as a way to differentiate. In the end symbols are fitting in this scenario where a droplet of water could signify “dry” and plants without the droplet could mean watered already or not ready to be watered yet. </p>
+                <p className='grey'> I had a couples ideas on how to denote a plant that needs water from a plant that’s not ready to be watered yet. I looked at how apps apply different states to selected and deselected items. I also considered symbols as a way to differentiate. In the end symbols are fitting in this scenario where a droplet of water could signify “dry” and plants without the droplet could mean watered already or not ready to be watered yet. </p>
                 
-                <div class='images'>
-                    <img class='image' src={Image} alt='7image'  />
+                <div className='images'>
+                    <img className='image' src={Image} alt='7image'  />
                     
                 </div>
             </div>
 
-            <div class='diff'>
+            <div className='diff'>
                 <h4> Tracking watering </h4>
                 <p> Because indoor plant care is individual to each plants, users need to be able to see water history and set watering frequencies for them. </p>
-                <div class='track'>
+                <div className='track'>
                     <img src={Track} alt='track' />
                 </div>
 
@@ -33,12 +33,12 @@ export default function SixthBoard () {
                     <img src={Explore} alt='explore' />
                 </div>
 
-                <div class='solution'>
+                <div className='solution'>
                     <h4> Final Solution </h4>
                     <p> I thought if a water droplet could signify dehydration, then perhaps you could tap that plant and mark it watered. But this is where I needed to get grounded with the goal of my users: they need to see all the plants that are dehydrated. </p>                    
 
-                    <div class='drop'>
-                        <img src={DropletA} alt='droplet' class='dropA' />
+                    <div className='drop'>
+                        <img src={DropletA} alt='droplet' className='dropA' />
                         <img src={DropletB} alt='droplet' />
                         <img src={DropletC} alt='droplet' />
                     </div>

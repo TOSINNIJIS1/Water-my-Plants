@@ -2,10 +2,43 @@
 # yarn lockfile v1
 
 
+"@bufbuild/protobuf@^2.5.0":
+  version "2.16.0"
+  resolved "https://registry.npmjs.org/@bufbuild/protobuf/-/protobuf-2.16.0.tgz"
+  integrity sha512-FWa0sPlqYGJgpTs6OxBRcL/AW4JT0OIO+W1ajerluoTVh8CV0B7XM1qsNCRgnkSCkRCgOICKHRQlY17jrsm0+Q==
+
 "@oxc-project/types@=0.154.0":
   version "0.154.0"
   resolved "https://registry.npmjs.org/@oxc-project/types/-/types-0.154.0.tgz"
   integrity sha512-KYOUGQFlLWR+s4QMV2Q9ko38TZm7EdO87Qm7rvZLqk/webse/cDjtyxKhg/47l0byCbs/k46LT8qc4PKjAikzA==
+
+"@parcel/watcher-win32-x64@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.npmjs.org/@parcel/watcher-win32-x64/-/watcher-win32-x64-2.6.0.tgz"
+  integrity sha512-cA+/pXV2YkfxlIcXOQ5fSWqAzzPyD78/x5qbK/I0vUkrlYHA8TIz+MXjAbGouguKVSI4bOmkTSJ1/poVSsgt+A==
+
+"@parcel/watcher@^2.4.1":
+  version "2.6.0"
+  resolved "https://registry.npmjs.org/@parcel/watcher/-/watcher-2.6.0.tgz"
+  integrity sha512-7FNeNl8NCE7aINx7WXiKQrPYZWC/hvrTsmk6zmxbI7LTXE7hVek/n8AfVgpe2y82zl3w0HvCHN0bVKMBoJcC0w==
+  dependencies:
+    detect-libc "^2.0.3"
+    is-glob "^4.0.3"
+    node-addon-api "^7.0.0"
+    picomatch "^4.0.4"
+  optionalDependencies:
+    "@parcel/watcher-android-arm64" "2.6.0"
+    "@parcel/watcher-darwin-arm64" "2.6.0"
+    "@parcel/watcher-darwin-x64" "2.6.0"
+    "@parcel/watcher-freebsd-x64" "2.6.0"
+    "@parcel/watcher-linux-arm-glibc" "2.6.0"
+    "@parcel/watcher-linux-arm-musl" "2.6.0"
+    "@parcel/watcher-linux-arm64-glibc" "2.6.0"
+    "@parcel/watcher-linux-arm64-musl" "2.6.0"
+    "@parcel/watcher-linux-x64-glibc" "2.6.0"
+    "@parcel/watcher-linux-x64-musl" "2.6.0"
+    "@parcel/watcher-win32-arm64" "2.6.0"
+    "@parcel/watcher-win32-x64" "2.6.0"
 
 "@rolldown/binding-win32-x64-msvc@1.2.14":
   version "1.2.14"
@@ -24,6 +57,18 @@
   dependencies:
     "@rolldown/pluginutils" "^1.0.1"
 
+chokidar@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/chokidar/-/chokidar-5.0.0.tgz"
+  integrity sha512-TQMmc3w+5AxjpL8iIiwebF73dRDF4fBIieAqGn9RGCWaEVwQ6Fb2cGe31Yns0RRIzii5goJ1Y7xbMwo1TxMplw==
+  dependencies:
+    readdirp "^5.0.0"
+
+colorjs.io@^0.7.0:
+  version "0.7.1"
+  resolved "https://registry.npmjs.org/colorjs.io/-/colorjs.io-0.7.1.tgz"
+  integrity sha512-LY7OHnJZxHwT5UlzNa9bbhHHDbzB6yE5+3MIPwJEQKRvSCt/T4G7epsj+9j2BExUIIfXFIJGsIXUKdfrK9Q5tA==
+
 detect-libc@^2.0.3:
   version "2.1.2"
   resolved "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz"
@@ -33,6 +78,28 @@ fdir@^6.5.0:
   version "6.5.0"
   resolved "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz"
   integrity sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==
+
+has-flag@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz"
+  integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
+
+immutable@^5.1.5:
+  version "5.1.9"
+  resolved "https://registry.npmjs.org/immutable/-/immutable-5.1.9.tgz"
+  integrity sha512-m8nVez3rwrgmWxtLMt1ZYXB2Lv7OKYn/disyxAlSDYAlKSlFoPPfIAmAM/M5xqL4m4C/wAPw7S2/CNaUii1Hxg==
+
+is-extglob@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz"
+  integrity sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==
+
+is-glob@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz"
+  integrity sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==
+  dependencies:
+    is-extglob "^2.1.1"
 
 lightningcss-win32-x64-msvc@1.33.0:
   version "1.33.0"
@@ -68,6 +135,11 @@ nanoid@^3.3.20:
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz"
   integrity sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==
 
+node-addon-api@^7.0.0:
+  version "7.1.1"
+  resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.1.1.tgz"
+  integrity sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==
+
 picocolors@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz"
@@ -99,6 +171,11 @@ react-dom@latest:
   resolved "https://registry.npmjs.org/react/-/react-19.3.1.tgz"
   integrity sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==
 
+readdirp@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.npmjs.org/readdirp/-/readdirp-5.1.1.tgz"
+  integrity sha512-Kko+Y5XQ6fM+Ce3dq3m9YGxnacYZYl9cA1wZjaF3Vbry2L3i1qVg8+CAgNPsXRArPMUMCaOR7oa9Nqntc43JKA==
+
 rolldown@~1.2.12:
   version "1.2.14"
   resolved "https://registry.npmjs.org/rolldown/-/rolldown-1.2.14.tgz"
@@ -123,15 +200,89 @@ rolldown@~1.2.12:
     "@rolldown/binding-win32-arm64-msvc" "1.2.14"
     "@rolldown/binding-win32-x64-msvc" "1.2.14"
 
+rxjs@^7.4.0:
+  version "7.8.2"
+  resolved "https://registry.npmjs.org/rxjs/-/rxjs-7.8.2.tgz"
+  integrity sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==
+  dependencies:
+    tslib "^2.1.0"
+
+sass-embedded-win32-x64@1.105.2:
+  version "1.105.2"
+  resolved "https://registry.npmjs.org/sass-embedded-win32-x64/-/sass-embedded-win32-x64-1.105.2.tgz"
+  integrity sha512-O5eP1eUuyaU7RgBgA3/aYKXUT3FqHo11C5MbnHqwBDSMY5tZ+nMqcLVS0yZpzkJs3JOWj3fO6o/6fG+b+PzMpA==
+
+sass-embedded@^1.105.2, sass-embedded@^1.70.0:
+  version "1.105.2"
+  resolved "https://registry.npmjs.org/sass-embedded/-/sass-embedded-1.105.2.tgz"
+  integrity sha512-I8uIL7+eE3hPL/Ms2yDY7Km0lsn8xbgqUc231WaWuv+uUphy5LRgRQvMm/MQb9nx/okN9lY47x7sJbVk4o4JYQ==
+  dependencies:
+    "@bufbuild/protobuf" "^2.5.0"
+    colorjs.io "^0.7.0"
+    immutable "^5.1.5"
+    rxjs "^7.4.0"
+    supports-color "^8.1.1"
+    sync-child-process "^1.0.2"
+    varint "^6.0.0"
+  optionalDependencies:
+    sass-embedded-all-unknown "1.105.2"
+    sass-embedded-android-arm "1.105.2"
+    sass-embedded-android-arm64 "1.105.2"
+    sass-embedded-android-riscv64 "1.105.2"
+    sass-embedded-android-x64 "1.105.2"
+    sass-embedded-darwin-arm64 "1.105.2"
+    sass-embedded-darwin-x64 "1.105.2"
+    sass-embedded-linux-arm "1.105.2"
+    sass-embedded-linux-arm64 "1.105.2"
+    sass-embedded-linux-musl-arm "1.105.2"
+    sass-embedded-linux-musl-arm64 "1.105.2"
+    sass-embedded-linux-musl-riscv64 "1.105.2"
+    sass-embedded-linux-musl-x64 "1.105.2"
+    sass-embedded-linux-riscv64 "1.105.2"
+    sass-embedded-linux-x64 "1.105.2"
+    sass-embedded-unknown-all "1.105.2"
+    sass-embedded-win32-arm64 "1.105.2"
+    sass-embedded-win32-x64 "1.105.2"
+
+sass@^1.70.0:
+  version "1.105.2"
+  resolved "https://registry.npmjs.org/sass/-/sass-1.105.2.tgz"
+  integrity sha512-KxW6ZKZiBKWK3ziQ4YZ3cpqo8/1TlHXE8t9nBNvGDZFoBFbk2MD7RacxYFs8zy8hzeFwpFYkVyAhboi47uYPEQ==
+  dependencies:
+    chokidar "^5.0.0"
+    immutable "^5.1.5"
+    source-map-js ">=0.6.2 <2.0.0"
+  optionalDependencies:
+    "@parcel/watcher" "^2.4.1"
+
 scheduler@^0.28.0:
   version "0.28.0"
   resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz"
   integrity sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==
 
-source-map-js@^1.2.2:
+source-map-js@^1.2.2, "source-map-js@>=0.6.2 <2.0.0":
   version "1.2.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz"
   integrity sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==
+
+supports-color@^8.1.1:
+  version "8.1.1"
+  resolved "https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz"
+  integrity sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==
+  dependencies:
+    has-flag "^4.0.0"
+
+sync-child-process@^1.0.2:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/sync-child-process/-/sync-child-process-1.1.0.tgz"
+  integrity sha512-1LMf/x0kU0CKFSesh5DfYktvj1KhiqYi5LAh5HU2G4SkKk1TGDhsMFBOL47g/E+mNfYpgs365pVNlIYOIHPvlQ==
+  dependencies:
+    sync-message-port "^1.0.0"
+
+sync-message-port@^1.0.0:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/sync-message-port/-/sync-message-port-1.2.0.tgz"
+  integrity sha512-gAQ9qrUN/UCypHtGFbbe7Rc/f9bzO88IwrG8TDo/aMKAApKyD6E3W4Cm0EfhfBb6Z6SKt59tTCTfD+n1xmAvMg==
 
 tinyglobby@^0.2.17:
   version "0.2.17"
@@ -140,6 +291,16 @@ tinyglobby@^0.2.17:
   dependencies:
     fdir "^6.5.0"
     picomatch "^4.0.4"
+
+tslib@^2.1.0:
+  version "2.8.1"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
+
+varint@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmjs.org/varint/-/varint-6.0.0.tgz"
+  integrity sha512-cXEIW6cfr15lFv563k4GuVuW/fiwjknytD37jIOLSdSWuOI6WnO/oKwmP2FQTU2l01LP8/M5TSAJpzUaGe3uWg==
 
 vite@^8.0.0, vite@latest:
   version "8.3.4"

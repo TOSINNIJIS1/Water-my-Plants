@@ -5,9 +5,15 @@ import Dashboard from './dashboard/firstandsecond/dashboard'
 
 function App() {
   return (
-    <div>
+    <div id="top" className="app-shell">
       <NavBar />
-      <Dashboard />
+      <main>
+        <Dashboard />
+      </main>
+      <footer id="contact" className="site-footer">
+        <p>Contact</p>
+        <a href="#top">Back to top</a>
+      </footer>
     </div>
   );
 }

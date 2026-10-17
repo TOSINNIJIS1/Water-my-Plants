@@ -19,7 +19,7 @@ export default function Image () {
 
 
     return (
-        <div class='img'>
+        <div className='img'>
             <img src={Group} alt='group' />
             <img src={Dashboard} alt='group' />
             <img src={Group} alt='group' />
