@@ -12,8 +12,9 @@ The project presents the full design story—from user research and synthesis th
 
 - React
 - Vite
-- Sass
-- Responsive HTML and CSS
+- Tailwind CSS v4 through the Vite plugin
+- Lucide icons
+- Responsive React components and an accessible image viewer
 
 ## Run locally
 
@@ -44,16 +45,14 @@ The site will be available at the local URL shown by Vite, usually [http://local
 
 ```text
 src/
-├── App.jsx                         Application shell and footer
-├── navbar/                         Portfolio navigation
-└── dashboard/
-    ├── firstandsecond/              Project introduction and problem/solution
-    ├── third/                       Research questions
-    ├── fourth/                      Research takeaways
-    ├── fifth/                       Persona and information architecture
-    ├── userFlow/                    Wireframe section
-    ├── sixth/                       Interaction exploration and final solution
-    └── 7image/                      Supporting prototype imagery
+├── App.jsx                         Application shell, footer, and image viewer state
+├── tailwind.css                    Tailwind tokens and global accessibility defaults
+├── navbar/navbar.jsx               Responsive navigation with section indicators
+├── case-study/
+│   ├── CaseStudy.jsx               Complete case study and all seven paper sketches
+│   └── EvidenceFigure.jsx          Research figures and keyboard-accessible image viewer
+├── assets/                         Original sketches and interface imagery
+└── dashboard/                      Previous components, no longer imported by the app
 ```
 
 ## Verification

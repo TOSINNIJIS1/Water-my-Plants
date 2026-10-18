@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@source "./case-study";
+
+@theme {
+  --color-ink: #243b2e;
+  --color-muted: #64695e;
+  --color-fern: #4b6545;
+  --color-fern-dark: #203a2c;
+  --color-sage: #e4e8d8;
+  --color-marigold: #d8e982;
+  --color-terracotta: #bd4426;
+  --color-cream: #f6f4eb;
+  --color-paper: #fffef8;
+  --color-line: #d7d9ca;
+  --font-display: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  --font-sans: "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+}
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 7rem; }
+  body { @apply m-0 bg-cream font-sans text-ink antialiased; }
+  button, a { -webkit-tap-highlight-color: transparent; }
+  button { cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--color-terracotta); outline-offset: 5px; }
+  ::selection { background: var(--color-marigold); color: var(--color-ink); }
+  dialog::backdrop { background: rgb(15 30 21 / .88); backdrop-filter: blur(8px); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  }
+}
