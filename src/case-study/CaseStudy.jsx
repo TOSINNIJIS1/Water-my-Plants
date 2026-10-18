@@ -65,7 +65,10 @@ export default function CaseStudy({ onOpen }) {
           <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-line px-3 py-1.5 text-[10px] uppercase tracking-wider"><Leaf size={12} aria-hidden="true" /> A little care goes a long way</div>
           <h1 className="text-[clamp(3.8rem,7.6vw,7.8rem)] leading-[.94] tracking-[-.065em]"><span className="block font-medium">Water my</span><span className="block font-display text-[1.25em] italic text-fern">Plants<span className="text-terracotta">.</span></span></h1>
           <p className="mt-8 max-w-[26rem] text-base leading-relaxed text-muted lg:text-lg">Less guesswork. More growing.<br />Designing a calmer way for indoor plant owners to keep their little jungle alive.</p>
-          <a href="#projects" className="group mt-9 inline-flex items-center gap-5 border-b border-ink pb-3 text-xs font-semibold">Explore the case study <span className="grid size-9 place-items-center rounded-full bg-ink text-cream transition-colors group-hover:bg-terracotta"><ArrowDown size={16} aria-hidden="true" /></span></a>
+          <div className="mt-9 flex flex-wrap items-center gap-5">
+            <a href="#projects" className="group inline-flex items-center gap-5 border-b border-ink pb-3 text-xs font-semibold">Explore the case study <span className="grid size-9 place-items-center rounded-full bg-ink text-cream transition-colors group-hover:bg-terracotta"><ArrowDown size={16} aria-hidden="true" /></span></a>
+            <a href="/user-flow" className="inline-flex items-center gap-2 rounded-full bg-fern-dark px-5 py-3 text-xs font-semibold text-paper transition hover:bg-terracotta">Explore the user flow <ArrowUpRight size={15} aria-hidden="true" /></a>
+          </div>
           <div className="mt-7 flex items-center gap-2 text-[10px] uppercase tracking-[.15em] text-muted sm:mt-12"><span className="h-px w-10 bg-line" /> Designed by Mahiya H.</div>
         </div>
         <div className="relative isolate aspect-[1/1.05] overflow-hidden rounded-t-[45%] bg-[#dfe5cc] md:aspect-[.85/1] lg:aspect-square">
@@ -124,7 +127,7 @@ export default function CaseStudy({ onOpen }) {
           ].map(([heading, text], i) => <div key={heading} className="grid grid-cols-[2rem_1fr] gap-3 border-b border-line py-7"><span className="pt-1 text-xs text-terracotta">0{i + 1}</span><div><h3 className="mb-3 text-lg font-medium">{heading}</h3><p className="text-sm leading-[1.8] text-muted">{text}</p></div></div>)}
         </div>
       </div>
-      <div className="mt-16 border-l-2 border-terracotta py-2 pl-6 sm:pl-10"><p className="mb-4 text-[10px] uppercase tracking-[.18em] text-terracotta">Design opportunity</p><p className="max-w-4xl font-display text-3xl leading-snug tracking-tight sm:text-4xl">Make the next act of care obvious—<br className="hidden sm:block" /><span className="italic text-fern">without asking people to remember everything.</span></p></div>
+      <div className="mt-16 border-l-2 border-terracotta py-2 pl-6 sm:pl-10"><p className="mb-4 text-[10px] uppercase tracking-[.18em] text-terracotta">Design opportunity</p><p className="max-w-4xl font-display text-3xl leading-snug tracking-tight sm:text-4xl">Make the next act of care obvious, <br className="hidden sm:block" /><span className="italic text-fern">without asking people to remember everything.</span></p></div>
     </section>
 
     <section className="bg-[#e8eadf] py-20 sm:py-28">
@@ -151,7 +154,7 @@ export default function CaseStudy({ onOpen }) {
 
     <section id="design" className="border-y border-line bg-[#ece9de] py-20 sm:py-28">
       <div className={container}>
-        <SectionHeading number="06" label="The sketchbook" description="Before pixels, pencil. Seven paper screens explore the everyday moments of plant care—from making a group to finding out what a plant needs.">Good ideas start<br /><em>a little messy.</em></SectionHeading>
+        <SectionHeading number="06" label="The sketchbook" description="Before pixels, pencil. Seven paper screens explore the everyday moments of plant care, from making a group to finding out what a plant needs.">Good ideas start<br /><em>a little messy.</em></SectionHeading>
         <div className="mb-8 flex justify-between border-y border-ink/20 py-3 text-[10px] uppercase tracking-[.15em]"><span>Paper wireframes / 07 screens</span><span className="text-muted">Open any sketch ↗</span></div>
         <div aria-label="Seven paper wireframes" className="grid grid-cols-1 gap-x-6 gap-y-10 min-[420px]:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
           {sketches.map((item, i) => <figure key={item.title}>
@@ -190,6 +193,10 @@ export default function CaseStudy({ onOpen }) {
             </button>
             <div className="mx-auto mt-7 max-w-[290px]"><span className="text-[10px] tracking-widest text-terracotta">{number} /</span><h3 className="mb-2 mt-3 font-display text-2xl tracking-tight">{heading}</h3><p className="text-sm leading-relaxed text-muted">{text}</p></div>
           </div>)}
+        </div>
+        <div className="mt-16 overflow-hidden rounded-[2rem] bg-fern-dark p-7 text-paper sm:flex sm:items-center sm:justify-between sm:gap-10 sm:p-10">
+          <div><Eyebrow>Try the experience</Eyebrow><h3 className="mt-3 max-w-xl font-display text-3xl leading-tight sm:text-4xl">See the product flow from dashboard to daily care.</h3><p className="mt-3 max-w-lg text-sm leading-6 text-paper/70">Step through the decisions, states, and routines behind the final direction.</p></div>
+          <a href="/user-flow" className="mt-7 inline-flex shrink-0 items-center gap-3 rounded-full bg-marigold px-6 py-3 text-sm font-bold text-ink transition hover:bg-cream sm:mt-0">Explore the user flow <ArrowUpRight size={17} aria-hidden="true" /></a>
         </div>
         <div className="mt-16 grid gap-5 border-t border-ink/20 pt-8 sm:grid-cols-[.4fr_1fr]"><p className="text-[10px] uppercase tracking-[.17em] text-muted">Looking back</p><p className="max-w-3xl font-display text-2xl leading-relaxed tracking-tight sm:text-3xl">The most useful shift was in the question: from remembering to water, to understanding <em>which plant needs care.</em></p></div>
       </div>

@@ -3,8 +3,10 @@ import { ArrowUpRight, ArrowUp, Asterisk } from 'lucide-react';
 import NavBar from './navbar/navbar';
 import CaseStudy from './case-study/CaseStudy';
 import { ImageViewer } from './case-study/EvidenceFigure';
+import UserFlow from './user-flow/UserFlow';
 
 export default function App() {
+  if (window.location.pathname === '/user-flow') return <UserFlow />;
   const [selectedImage, setSelectedImage] = useState(null);
   return <div id="top">
     <a href="#main" className="fixed left-4 top-4 z-50 -translate-y-24 bg-marigold px-5 py-3 text-ink focus:translate-y-0">Skip to content</a>
